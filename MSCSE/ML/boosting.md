@@ -40,3 +40,21 @@
    * Combine the predictions of all weak learners:
         * Typically through weighted voting or averaging.
    * This combined output forms the final prediction.
+
+
+
+**Boosting**
+
+Boosting is an ensemble learning technique aimed at improving the accuracy of predictions by training models sequentially, where each model tries to correct the errors of its predecessor.
+
+1. **Initialization**: Start with assigning equal weights to all training samples.
+
+2. **Training**: Fit the first model to the data. For each subsequent model, adjust the weights of the training samples based on the errors of the previous model's predictions. More weight is given to misclassified samples to focus the next model on correcting those errors.
+
+3. **Combining**: The final prediction is made by combining the predictions of all models, often with a weighted vote or sum.
+
+Some well-known algorithms that use boosting include:
+- **AdaBoost** (Adaptive Boosting)
+- **Gradient Boosting Machines (GBM)**
+- **XGBoost** (Extreme Gradient Boosting)
+- **LightGBM**
