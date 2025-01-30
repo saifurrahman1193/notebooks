@@ -1,4 +1,9 @@
-# 
+# Neural Network
+- Deep learning models use artificial neural networks (ANNs), inspired by the human brain.
+- A neural network consists of layers of neurons, including:
+    - Input Layer: Receives the raw data (e.g., images, text, numbers).
+    - Hidden Layers: Perform computations and extract patterns using neurons.
+    - Output Layer: Produces the final result (e.g., classification label, prediction).
 
 **Input Layer**
 - Function: Takes input features directly from the dataset.
