@@ -31,3 +31,20 @@
 - Example: For an image recognition task, it might output labels like "cat" or "dog".
 
 ![alt text](assets/neural_network.png)
+
+
+
+# A Single Neuron
+- A single neuron is the fundamental building block of a neural network
+- It's a simplified model of a biological neuron, designed to receive, process, and transmit information.
+
+
+## Key points
+- A single neuron performs a simple computation but becomes powerful when combined with many others in a network.
+- The weights and bias are learned during training to minimize the error in predictions.
+- Activation functions enable the network to model complex, non-linear relationships.
+
+
+![alt text](assets/single_neuron.png)
+![alt text](assets/single_neuron2.png)
+![alt text](assets/single_neuron3.png)
