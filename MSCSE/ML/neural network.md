@@ -31,7 +31,7 @@
 - Example: For an image recognition task, it might output labels like "cat" or "dog".
 
 ![alt text](assets/neural_network.png)
-
+![alt text](assets/neural_network_2.png)
 
 
 # A Single Neuron
@@ -48,3 +48,13 @@
 ![alt text](assets/single_neuron.png)
 ![alt text](assets/single_neuron2.png)
 ![alt text](assets/single_neuron3.png)
+
+
+```
+     x₁ (Input) -----> (w₁) \
+                                \
+     x₂ (Input) -----> (w₂) --->  Σ (Weighted Sum) → Activation Function → Output (y)
+                                /
+     Bias (b) ---------------> /
+
+```
