@@ -100,3 +100,157 @@ The output of a single Neuron is
 ![alt text](assets/activation_function_depth_6.png)
 ![alt text](assets/activation_function_depth_7.png)
  
+
+
+# CNN (Convolutional Neural Network)
+
+- **Convolutional Neural Network (CNN)**, or **ConvNet**, is a class of deep neural networks commonly used to analyze visual imagery, such as object detection, image recognition, image classification, face recognition, etc.
+- CNNs classify an input image into certain categories (e.g., Dog, Cat, Tiger, Lion).
+- An input image is represented as an array of pixels in the form of **h × w × d**, where:
+  - **h** is the height,
+  - **w** is the width,
+  - **d** is the depth (or the number of channels, e.g., RGB channels).
+
+An example of a **6 x 6 x 3** matrix for an RGB image is shown in **Fig. 1.21**.
+
+Each input image passes through a series of layers, which include:
+1. **Convolution Layers** with filters (kernels),
+2. **Pooling Layers**,
+3. A **Fully Connected (FC) Neural Network**, and
+4. A **Softmax function** to classify the object, as shown in **Fig. 1.22**.
+
+---
+
+### The Core Components of a CNN:
+1. **Convolution Layer**  
+2. **Activation Function (ReLU)**  
+3. **Pooling Layer**  
+4. **Fully Connected Neural Network**
+
+
+#### Rule: **CAP F**ull
+
+![alt text](assets/cnn_rgb.png)
+
+
+# Convolution Layer in CNNs
+
+The **Convolution Layer** is the first layer used in Convolutional Neural Networks (CNNs) to extract features from an input image. This layer is essential for learning spatial hierarchies by preserving relationships between pixels.
+
+## Convolution Operation:
+Convolution is a mathematical operation that involves two inputs:
+1. **Image Matrix** (input data)
+2. **Filter or Kernel** (a small matrix, e.g., \(3 \times 3\))
+
+For example, let’s consider:
+- **5 x 5 image matrix**: This is the input image with pixel values.
+- **3 x 3 filter matrix**: This is the kernel used for convolution.
+
+The **output** of this operation is called the **Feature Map**, which is a smaller matrix derived by applying the filter over the input image.
+
+### Example:
+For a \(5 \times 5\) image and a \(3 \times 3\) filter:
+1. The filter moves over the image and performs an element-wise multiplication of the image and filter matrix.
+2. The results are summed up to produce a value in the output (feature map).
+
+This operation extracts features such as edges, textures, and patterns from the input image.
+
+---
+
+## Types of Filters:
+Filters can be designed for various purposes:
+- **Edge Detection**: Detects boundaries of objects in the image.
+- **Blur**: Smooths out an image, reducing noise.
+- **Sharpen**: Enhances edges to make them clearer.
+
+### Example of Convolution with Different Filters:
+- **Edge Detection Filter**: Detects the edges in the image.
+- **Blur Filter**: Reduces sharpness and smooths the image.
+- **Sharpen Filter**: Enhances the sharpness and detail of an image.
+
+By applying different filters to the image, we can perform operations such as edge detection, blurring, and sharpening.
+
+---
+
+## Stride:
+Stride refers to the number of pixels the filter moves over the input matrix during convolution.
+- **Stride = 1**: The filter moves 1 pixel at a time.
+- **Stride = 2**: The filter moves 2 pixels at a time.
+
+The choice of stride affects the output feature map size. Larger strides result in smaller feature maps.
+
+### Example of Convolution with Stride 2:
+If the stride is set to 2, the filter will move 2 pixels at a time over the image, resulting in a smaller feature map than when the stride is set to 1.
+
+---
+
+## Padding:
+Padding is used when the filter does not fit perfectly over the input image. It involves adding extra pixels around the image.
+
+There are two main types of padding:
+
+1. **Zero Padding**:  
+   Padding the image with zeros (or other values) around the borders so that the filter can fit. This ensures that the spatial dimensions of the output remain consistent, especially when using **same padding** to keep the output size the same as the input size.
+   
+2. **Valid Padding**:  
+   In this case, parts of the image where the filter cannot fully fit are discarded, and the filter only operates where it can fully fit within the image bounds. This usually results in smaller output feature maps.
+
+---
+
+## Summary:
+- **Convolution** extracts features from images by applying filters and generating feature maps.
+- **Strides** control the step size when applying the filter to the image, influencing the output size.
+- **Padding** ensures the filter fits perfectly over the image and preserves important features, with options for zero-padding or valid-padding.
+
+
+![alt text](assets/Image_matrix_multiplies_kernel_or_filter_matrix.png)
+![alt text](assets/convolutional_layer.gif)
+![alt text](assets/convulation_layer2.png)
+
+
+
+
+
+# Non-Linearity and Layers in CNN  
+
+## **Non-Linearity (ReLU)**  
+ReLU (**Rectified Linear Unit**) is an activation function used to introduce **non-linearity** in CNNs. It helps the model learn complex patterns beyond simple linear relationships.
+
+The ReLU function is defined as:
+
+```
+f(x) = max(0, x)
+```
+
+This means:  
+- If \( x \) is **positive**, it remains unchanged.  
+- If \( x \) is **negative**, it becomes **zero**.  
+
+ReLU is widely used because it helps mitigate the **vanishing gradient problem** and improves the training of deep networks.
+ 
+
+---
+
+![alt text](assets/activation_layer.png)
+
+
+## **Pooling Layer**  
+The **Pooling Layer** reduces the number of parameters in the images, making computations more efficient. This process is also known as **spatial pooling, subsampling, or downsampling**.  
+
+### Types of Pooling:  
+1. **Max Pooling** – Takes the largest element from the rectified feature map.  
+2. **Average Pooling** – Takes the average of elements within a feature map.  
+3. **Sum Pooling** – Computes the sum of all elements in the feature map.  
+
+Pooling helps retain important features while reducing the spatial dimensions.
+![alt text](assets/pooling.png)
+---
+
+## **Fully Connected (FC) Layer**  
+- The **FC Layer** **flattens** the feature map matrix into a **vector**.  
+- It combines the extracted features to form the final classification model.  
+- Finally, an **activation function** such as **Softmax** or **Sigmoid** is used to classify the outputs into categories (e.g., cat, dog, car, truck).  
+
+---
+
+This structure enables **Convolutional Neural Networks (CNNs)** to learn meaningful patterns and classify images effectively.
