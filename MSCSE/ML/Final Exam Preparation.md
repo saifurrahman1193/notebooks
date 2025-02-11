@@ -65,8 +65,14 @@ clustering into one final clustering with a higher accuracy.
 
 
 
-# A single Neuron
-- A single neuron/perceptron (Forward propagation) is the fundamental building block of a neural network. It takes inputs, processes them using weights and a bias, applies an activation function, and produces an output.
+
+
+# Neural Network
+
+
+# A single Neuron (The perceptron or a single neuron)
+- A single neuron/perceptron (Forward propagation) is the fundamental building block of a neural network. 
+- It takes inputs, processes them using weights and a bias, applies an activation function, and produces an output.
 
 The output of a single Neuron is
 
@@ -74,16 +80,34 @@ The output of a single Neuron is
 ![alt text](assets/output_of_single_nuron_2.png)
 ![alt text](assets/output_of_single_nuron_3.png)
 ![alt text](assets/output_of_single_nuron_4.png)
+![alt text](assets/output_of_single_nuron_5.png)
+![alt text](assets/output_of_single_nuron_6.png)
+![alt text](assets/output_of_single_nuron_7.png)
+![alt text](assets/output_of_single_nuron_8.png)
+![alt text](assets/output_of_single_nuron_9.png)
+![alt text](assets/output_of_single_nuron_10.png)
+![alt text](assets/output_of_single_nuron_11.png)
+![alt text](assets/output_of_single_nuron_12.png)
+![alt text](assets/output_of_single_nuron_13.png)
+![alt text](assets/output_of_single_nuron_14.png)
+
+
+
+- A Neural Network is combinations of basic Neurons — also called perceptrons (A basic Unit shown in the above diagram- green circle in middle) 
+- 
+![Alt text](assets/multilayer.png)
 
 # Activation Function
 - An activation function is a mathematical function that determines whether a neuron should be activated or not by calculating weighted sum and adding bias
 - mathematical functions applied to the output of a neuron.
 - It introduces non-linearity into the output of  a neuron
+- An Activation Function decides whether a neuron should be activated or not.
+- Depending on the nature and intensity of these input signals, the brain processes them and decides whether the neuron should be activated (“fired”) or not. 
 
 ![alt text](assets/activation_function_depth.png)
 ![alt text](assets/activation_function_depth_2.png)
-
-
+![alt text](assets/activation_function_depth_8.png)
+![alt text](assets/activation_function_depth_9.png)
 
 
 ## 2 Types of Activation Functions
@@ -101,6 +125,16 @@ The output of a single Neuron is
 ![alt text](assets/activation_function_depth_7.png)
  
 
+
+
+## Gradient descent (GD)
+- Gradient descent (GD) is an iterative first-order optimisation algorithm used to find a local minimum/maximum of a given function. 
+- This method is commonly used in machine learning (ML) and deep learning(DL) to minimise a cost/loss function.
+
+
+--------
+----
+-----
 
 # CNN (Convolutional Neural Network)
 
