@@ -139,7 +139,7 @@ The output of a single Neuron is
 - some people also call it error function
 - The loss function (or error) is for a single training example, while the cost function is over the entire training set (or mini-batch for mini-batch gradient descent).
 ![Alt text](assets/loss_function.png)
-
+![Alt text](assets/mae.png)
 
 
 ## Gradient descent (GD)
