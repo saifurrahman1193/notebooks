@@ -114,6 +114,12 @@ The output of a single Neuron is
 
 ### Linear Activation: 
 - No transformation between input and output. So, input will be output.
+- The linear activation function, also known as "no activation," or "identity function" (multiplied x1.0), is where the activation is proportional to the input. 
+- The function doesn't do anything to the weighted sum of the input, it simply spits out the value it was given
+
+![Alt text](assets/linear_activation.png)
+![Alt text](assets/linear_activation2.png)
+
 
 ### Non-Linear Activation Functions
 - Non-linear activations increase the functional capacity of the neural network, because it allows it to present non-linear relationships between features in the input.
@@ -123,7 +129,16 @@ The output of a single Neuron is
 ![alt text](assets/activation_function_depth_5.png)
 ![alt text](assets/activation_function_depth_6.png)
 ![alt text](assets/activation_function_depth_7.png)
- 
+![alt text](assets/activation_function_depth_10.png)
+![alt text](assets/activation_function_depth_11.png)
+![alt text](assets/activation_function_depth_12.png)
+
+
+
+## Loss Function
+- some people also call it error function
+- The loss function (or error) is for a single training example, while the cost function is over the entire training set (or mini-batch for mini-batch gradient descent).
+![Alt text](assets/loss_function.png)
 
 
 
