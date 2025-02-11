@@ -135,6 +135,8 @@ Each input image passes through a series of layers, which include:
 
 # Convolution Layer in CNNs
 
+![Alt text](assets/CNN_layers.jpg)
+
 The **Convolution Layer** is the first layer used in Convolutional Neural Networks (CNNs) to extract features from an input image. This layer is essential for learning spatial hierarchies by preserving relationships between pixels.
 
 ## Convolution Operation:
@@ -185,16 +187,50 @@ If the stride is set to 2, the filter will move 2 pixels at a time over the imag
 ---
 
 ## Padding:
-Padding is used when the filter does not fit perfectly over the input image. It involves adding extra pixels around the image.
+Padding is used when the filter does not fit perfectly over the input image. It involves adding extra pixels around the image. Padding refers to adding extra pixels (usually zeros) around the input image before applying the convolution operation.
 
 There are two main types of padding:
 
 1. **Zero Padding**:  
-   Padding the image with zeros (or other values) around the borders so that the filter can fit. This ensures that the spatial dimensions of the output remain consistent, especially when using **same padding** to keep the output size the same as the input size.
+   - Padding the image with zeros (or other values) around the borders so that the filter can fit. 
+   - Zero padding is used to add extra rows and columns of zeros to the edges of an image. This technique is also known as “border padding” or “border mode”. The zeros are added to the borders of the image so that the size of the image is increased, but the original content remains unchanged. 
+   - This ensures that the spatial dimensions of the output remain consistent, especially when using **same padding** to keep the output size the same as the input size.
+
+   ![Alt text](assets/zero_padding.gif)
+   ![Alt text](assets/zero_padding_2.gif)
    
 2. **Valid Padding**:  
    In this case, parts of the image where the filter cannot fully fit are discarded, and the filter only operates where it can fully fit within the image bounds. This usually results in smaller output feature maps.
 
+
+#### Why is padding required?
+- Let’s look at an example to understand the need for padding. Consider a 5x5 input image and a 3x3 filter. When we perform a convolutional operation with this filter on the input image, we get a 3x3 feature map output.
+![Alt text](assets/why_zero_padding.gif) 
+
+This leads to two problems:
+
+1. The output feature map is smaller (3x3) than the input image (5x5). As we apply more convolutional layers, the spatial dimensions keep decreasing, causing loss of information.
+2. The pixels at the borders of the input are included in fewer convolutional operations compared to the center pixels. If important visual features are present at the edges, this can negatively impact performance.
+
+To solve these issues, we apply padding to the input image before convolution.
+
+
+### What is Padding?
+
+Padding involves adding extra pixel rows/columns around the borders of an input image. For an nxn input image and an fxf filter, the shape of the output feature map without padding is (n-f+1)x(n-f+1). To maintain the same spatial dimensions after convolution, we set n-f+1=n, which means padding the input to size (n+f-1)x(n+f-1).
+
+In the example above, the 5x5 image is padded to 7x7 by adding a single pixel row/column boundary with values of zero. This is called zero padding in frameworks like Keras.
+
+![Alt text](assets/why_zero_padding_2.gif)
+
+The formula for calculating output shape after padding is:
+
+Output shape = (n + 2p — f + 1) x (n + 2p — f + 1) Where n is input size, f is filter size, and p is the padding amount.
+
+Keras provides two padding options:
+
+    ‘valid’: No padding is applied
+    ‘same’: Pad input so output has same spatial dimensions as input
 ---
 
 ## Summary:
@@ -254,3 +290,10 @@ Pooling helps retain important features while reducing the spatial dimensions.
 ---
 
 This structure enables **Convolutional Neural Networks (CNNs)** to learn meaningful patterns and classify images effectively.
+
+
+![Alt text](assets/cnn.png)
+![Alt text](assets/cnn2.png)
+![Alt text](assets/cnn3.png)
+![Alt text](assets/cnn4.gif)
+![Alt text](assets/cnn5.png)
