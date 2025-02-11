@@ -140,7 +140,7 @@ The output of a single Neuron is
 - The loss function (or error) is for a single training example, while the cost function is over the entire training set (or mini-batch for mini-batch gradient descent).
 ![Alt text](assets/loss_function.png)
 ![Alt text](assets/mae.png)
-
+![Alt text](assets/mse.png)
 
 ## Gradient descent (GD)
 - Gradient descent (GD) is an iterative first-order optimisation algorithm used to find a local minimum/maximum of a given function. 
