@@ -138,9 +138,19 @@ The output of a single Neuron is
 ## Loss Function
 - some people also call it error function
 - The loss function (or error) is for a single training example, while the cost function is over the entire training set (or mini-batch for mini-batch gradient descent).
+- A loss function is a function that measures how well a machine learning model's predicted outputs match the true output labels.
+- The loss function is used to optimize the model by minimizing the loss, which means that the model makes fewer mistakes on the training data.
+- Loss function helps you figure out the performance of your model in prediction, how good the model is able to generalize. It computes the error for every training.
 ![Alt text](assets/loss_function.png)
+![Alt text](assets/loss_function2.png)
 ![Alt text](assets/mae.png)
+![Alt text](assets/mae2.png)
 ![Alt text](assets/mse.png)
+![Alt text](assets/rmse.png)
+![Alt text](assets/rmse2.png)
+
+
+
 
 ## Gradient descent (GD)
 - Gradient descent (GD) is an iterative first-order optimisation algorithm used to find a local minimum/maximum of a given function. 
