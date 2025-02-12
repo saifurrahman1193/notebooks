@@ -160,7 +160,9 @@ The output of a single Neuron is
 - Gradient descent (GD) is an iterative first-order optimisation algorithm used to find a local minimum/maximum of a given function. 
 - This method is commonly used in machine learning (ML) and deep learning(DL) to minimise a cost/loss function.
 - The main objective of using a gradient descent algorithm is to minimize the cost function using iteration.
-- ![alt text](assets/gradient_descent.png)
+![alt text](assets/gradient_descent.png)
+![alt text](assets/gradient_descent2.png)
+![alt text](assets/gradient_descent3.png)
 
 
 --------
