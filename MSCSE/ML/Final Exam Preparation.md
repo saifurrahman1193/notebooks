@@ -60,6 +60,34 @@
 |                 | - More stable and reliable than K-Means                                                          | - Not as flexible as C-Means for overlapping clusters                                            |
 
 
+
+
+## Similarity-Based Clustering Example
+Similarity-based clustering groups data points based on their similarity or distance from one another. A common approach is to use a distance metric (e.g., Euclidean distance) to measure how similar or dissimilar two data points are. Let’s go through an example using Euclidean distance for clustering.
+![Alt text](assets/similarity_based_clustering.png)
+![Alt text](assets/similarity_based_clustering2.png)
+![Alt text](assets/similarity_based_clustering3.png)
+![Alt text](assets/similarity_based_clustering4.png)
+![Alt text](assets/similarity_based_clustering5.png)
+![Alt text](assets/similarity_based_clustering6.png)
+
+
+### Similarity-Based Clustering Example 2
+
+
+![Alt text](assets/similarity_based_clusteringex1s1.png)
+![Alt text](assets/similarity_based_clusteringex1s2.png)
+![Alt text](assets/similarity_based_clusteringex1s3.png)
+![Alt text](assets/similarity_based_clusteringex1s4.png)
+
+### Similarity-Based Advantage & Disadvantage
+
+![Alt text](assets/similarity_based_clustering_adv_disadv.png)
+![Alt text](assets/similarity_based_clustering_adv_disadv2.png)
+![Alt text](assets/similarity_based_clustering_adv_disadv3.png)
+
+
+
 ## Ensemble Clustering | consensus clustering
 Ensemble clustering is a process of integrating multiple clustering
 algorithms to form a single strong clustering approach that usually
