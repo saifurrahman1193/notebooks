@@ -36,7 +36,31 @@
 
 # Clustering
 
-## Ensemble Clustering
+| **Algorithm**   | **Advantages** | **Disadvantages** |
+|---------------|---------------|---------------|
+| **K-Means** | ✅ Simple and easy to implement. <br> ✅ Fast and efficient for large datasets. <br> ✅ Works well when clusters are well-separated. | ❌ Sensitive to the initial choice of centroids. <br> ❌ Requires the number of clusters \( k \) to be predefined. <br> ❌ Struggles with clusters of varying shapes and densities. |
+| **C-Means (Fuzzy C-Means)** | ✅ Allows partial membership of data points in multiple clusters. <br> ✅ More flexible for overlapping clusters. <br> ✅ Handles uncertainty in data better than K-Means. | ❌ More computationally expensive than K-Means. <br> ❌ Requires tuning of the fuzziness parameter \( m \). <br> ❌ Slower convergence compared to K-Means. |
+| **K-Means++** | ✅ Improves cluster initialization, leading to better results. <br> ✅ Reduces the chances of poor local minima. <br> ✅ Converges faster than standard K-Means. | ❌ Slightly more computational overhead due to smarter initialization. <br> ❌ Still requires the number of clusters \( k \) to be predefined. |
+
+![Alt text](assets/K-Means_C-Means_(Fuzzy_C-Means)_K-Means++.png)
+| **Algorithm**   | **Advantages**                                                                                   | **Disadvantages**                                                                                 |
+|-----------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| **K-Means**     | - Simple and easy to implement                                                                   | - Sensitive to initial centroids                                                                 |
+|                 | - Efficient for large datasets                                                                   | - Can converge to local minima                                                                   |
+|                 | - Scales well with data size and number of dimensions                                             | - Requires the number of clusters (K) to be predefined                                           |
+|                 | - Works well for spherical clusters                                                               | - Can struggle with clusters of varying shapes and sizes                                        |
+|                 | - Good for quickly partitioning data into clusters                                                | - Does not handle noisy data and outliers well                                                   |
+| **C-Means**     | - Provides fuzzy partitioning (data points can belong to multiple clusters)                       | - More computationally intensive than K-Means                                                    |
+|                 | - More flexible and can handle overlapping clusters                                               | - Requires tuning of fuzziness parameter                                                         |
+|                 | - Better handling of uncertainty and ambiguity                                                   | - Can be sensitive to initial conditions                                                         |
+|                 | - Useful for applications where clusters are not well-separated                                  | - May converge to local minima                                                                   |
+| **K-Means++**   | - Improved initialization of centroids leading to better clustering                              | - Slightly more computationally expensive than standard K-Means                                 |
+|                 | - Reduces the risk of poor clustering results                                                   | - Requires the number of clusters (K) to be predefined                                           |
+|                 | - Faster convergence and more accurate results                                                   | - May still converge to local minima                                                             |
+|                 | - More stable and reliable than K-Means                                                          | - Not as flexible as C-Means for overlapping clusters                                            |
+
+
+## Ensemble Clustering | consensus clustering
 Ensemble clustering is a process of integrating multiple clustering
 algorithms to form a single strong clustering approach that usually
 provides better clustering results. It generates a set of clusters from a
@@ -62,6 +86,13 @@ clusters. (((same clustering algorithm + same dataset) many times) differet para
 
 The main goal of the ensemble clustering is to integrate component
 clustering into one final clustering with a higher accuracy.
+
+
+![Alt text](assets/ensemble_clustering.png)
+![Alt text](assets/ensemble_clustering2.png)
+![Alt text](assets/ensemble_clustering3.png)
+![Alt text](assets/ensemble_clustering4.png)
+![Alt text](assets/ensemble_clustering5.png)
 
 
 
@@ -160,10 +191,47 @@ The output of a single Neuron is
 - Gradient descent (GD) is an iterative first-order optimisation algorithm used to find a local minimum/maximum of a given function. 
 - This method is commonly used in machine learning (ML) and deep learning(DL) to minimise a cost/loss function.
 - The main objective of using a gradient descent algorithm is to minimize the cost function using iteration.
+- Gradient descent is a fundamental optimization algorithm used to train neural networks. It's a method for iteratively adjusting the weights and biases of the network's connections to minimize the difference between the network's predictions and the actual target values.
 ![alt text](assets/gradient_descent.png)
 ![alt text](assets/gradient_descent2.png)
 ![alt text](assets/gradient_descent3.png)
 
+
+## Backpropagation
+
+Backpropagation is a powerful algorithm in deep learning, primarily used to train artificial neural networks, particularly feed-forward networks. It works iteratively, minimizing the cost function by adjusting weights and biases.
+
+In each epoch, the model adapts these parameters, reducing loss by following the error gradient. Backpropagation often utilizes optimization algorithms like gradient descent or stochastic gradient descent. The algorithm computes the gradient using the chain rule from calculus, allowing it to effectively navigate complex layers in the neural network to minimize the cost function.
+
+Backpropagation (short for "Backward Propagation of Errors") is a method used to train artificial neural networks. Its goal is to reduce the difference between the model’s predicted output and the actual output by adjusting the weights and biases in the network.
+
+The backpropagation procedure entails calculating the error between the predicted output and the actual target output while passing on information in reverse through the feedforward network, starting from the last layer and moving towards the first. To compute the gradient at a specific layer, the gradients of all subsequent layers are combined using the chain rule of calculus.
+
+Backpropagation is the essence of neural network training. It is the method of fine-tuning the weights of a neural network based on the error rate obtained in the previous epoch (i.e., iteration). Proper tuning of the weights allows you to reduce error rates and make the model reliable by increasing its generalization.
+
+Backpropagation in neural network is a short form for “backward propagation of errors.” It is a standard method of training artificial neural networks. This method helps calculate the gradient of a loss function with respect to all the weights in the network.
+
+![Alt text](assets/Backpropagation.png)
+![Alt text](assets/Backpropagation2.png)
+
+
+## Overfitting
+![Alt text](assets/nn_overfitting.png)
+![Alt text](assets/nn_overfitting2.png)
+![Alt text](assets/nn_overfitting3.png)
+
+
+### Dropout
+How dropout regularization works
+
+Dropout regularization is done by randomly removing some nodes from the network during training. The removed nodes do not participate in the parameter updating process.
+
+The number of nodes to be removed from the network depends on the probability value that we set during the dropout regularization. For example, if we set a probability value of 0.4 for each node in a layer, there is a 40% chance that each node is removed during the training at each iteration.
+
+Dropout regularization is applied per-layer basis. More precisely, we can set different dropout probability values for each layer separately.
+
+The following diagram illustrates the dropout regularization process.
+![Alt text](assets/dropout.png)
 
 --------
 ----
