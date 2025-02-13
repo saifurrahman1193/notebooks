@@ -1,3 +1,5 @@
+![alt text](assets/suggestions.jpg)
+
 # Adaboost
 ![alt text](assets/adaboost.png)
 ![alt text](assets/adaboost2.jpeg)
