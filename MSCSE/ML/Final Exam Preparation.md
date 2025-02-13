@@ -1,5 +1,6 @@
 # Adaboost
 ![alt text](assets/adaboost.png)
+![alt text](assets/adaboost2.jpeg)
 
 ## Working of AdaBoost
 
