@@ -27,9 +27,14 @@ A single summary score that best describes the central location of an entire dis
 ![alt text](assets/am8.png)
 ![alt text](assets/am9.png)
 
+#### Grouped - Arithmatic Mean (AM)  (Without Class Boundaries)
+
 ![alt text](assets/am10.png)
+
+#### Grouped - Arithmatic Mean (AM) (With Class Boundaries)
 ![alt text](assets/am11.png)
 ![alt text](assets/am12.png)
+![alt text](assets/am13.png)
     
 
 #### 2. Geometric Mean
@@ -45,7 +50,7 @@ A single summary score that best describes the central location of an entire dis
 
 ### 2. Median (Middle Value)
 
-- How to find:
+- How to find: (**ungrouped**)
   - Arrange data in ascending order.
   - If odd number of values → middle value.
   - If even number of values → average of two middle values.
@@ -54,6 +59,15 @@ A single summary score that best describes the central location of an entire dis
 ![alt text](assets/median2.png)
 ![alt text](assets/median3.png)
 
+
+#### Grouped - Median  (Without Class Boundaries)
+![alt text](assets/median4.png)
+- C.F = Cumalitive Frequency 
+  - 2 = 2 [starting]
+  - 2 + 7 = 9
+  - 9 + 11 = 20 
+![alt text](assets/median5.png)
+![alt text](assets/median6.png)
 
 ### 3. Mode (Most Frequent Value)
 - Best for: Categorical data or distributions with multiple peaks.
