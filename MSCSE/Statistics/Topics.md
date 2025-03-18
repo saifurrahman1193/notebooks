@@ -24,6 +24,9 @@ A single summary score that best describes the central location of an entire dis
 ![alt text](assets/am6.png)
 ![alt text](assets/am7.png)
 
+
+#### Grouped - Arithmatic Mean (AM)  (Without Class Boundaries)
+
 ![alt text](assets/am8.png)
 ![alt text](assets/am9.png)
 
@@ -57,6 +60,8 @@ A single summary score that best describes the central location of an entire dis
 - Example: Income levels, house prices.
 ![alt text](assets/median.png)
 ![alt text](assets/median2.png)
+
+#### Only for Ungrouped dataset not for grouped dataset
 ![alt text](assets/median3.png)
 
 
@@ -66,8 +71,20 @@ A single summary score that best describes the central location of an entire dis
   - 2 = 2 [starting]
   - 2 + 7 = 9
   - 9 + 11 = 20 
+- N = summation of F (frequency given)
+- 9 = C.F. = F. C. = **F**(m-1) [median class row's previous class row's Cumalitive frequency]
+- 11 = F = **F** (m)  [ median class row's frequency]
+- 10 = C = i = h [class interval difference]
+- L = 20 = lower limit of median class row's 
+
 ![alt text](assets/median5.png)
 ![alt text](assets/median6.png)
+
+
+#### Grouped Median Calculation (With Class Boundaries)
+![alt text](assets/median7.png)
+![alt text](assets/median9.png)
+![alt text](assets/median8.png)
 
 ### 3. Mode (Most Frequent Value)
 - Best for: Categorical data or distributions with multiple peaks.
