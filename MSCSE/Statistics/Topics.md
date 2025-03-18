@@ -18,7 +18,20 @@ A single summary score that best describes the central location of an entire dis
 - Used for: Simple averages (e.g., test scores, heights).
 ![alt text](assets/am.png)
 ![alt text](assets/am2.png)
+![alt text](assets/am3.png)
+![alt text](assets/am4.png)
+![alt text](assets/am5.png)
+![alt text](assets/am6.png)
+![alt text](assets/am7.png)
+
+![alt text](assets/am8.png)
+![alt text](assets/am9.png)
+
+![alt text](assets/am10.png)
+![alt text](assets/am11.png)
+![alt text](assets/am12.png)
     
+
 #### 2. Geometric Mean
 - Used for: Growth rates (e.g., population growth, stock returns).
 ![alt text](assets/gm.png)
