@@ -5,10 +5,11 @@ A single summary score that best describes the central location of an entire dis
 - The center of the distribution.
 - One distribution can have multiple locations where scores cluster.
     - Must decide which measure is best for a given situation
-
+![alt text](assets/central_tendency.png)
 
 ## 3 main measure
 
+---
 ### 1. Mean (Arithmetic Average)
 - Affected by: Outliers (can distort the mean).
 - Example: Test scores, heights of students.
@@ -17,36 +18,111 @@ A single summary score that best describes the central location of an entire dis
 #### 1. Arithmetic Mean
 - Used for: Simple averages (e.g., test scores, heights).
 ![alt text](assets/am.png)
+
 ![alt text](assets/am2.png)
+1. for ungrouped data
+2. for elaborated ungrouped data
+3. for grouped data
 ![alt text](assets/am3.png)
+
 ![alt text](assets/am4.png)
+---
+#### Example [ungrouped data - AM]
 ![alt text](assets/am5.png)
+---
+
+
+#### Example [ungrouped data - AM]
+![alt text](image.png)
+![alt text](assets/am_ungrouped_discrete.png)
+
+---
+
 ![alt text](assets/am6.png)
 ![alt text](assets/am7.png)
 
 
-#### Grouped - Arithmatic Mean (AM)  (Without Class Boundaries)
+#### [***Example] Grouped - Arithmatic Mean (AM)  (Without Class Boundaries) 
 
 ![alt text](assets/am8.png)
 ![alt text](assets/am9.png)
+- sum fx = sum fm
+- mid value = m = x = 5 = (0+10)/2
+- mid value = m = x = 15 = (10+20)/2
+---
 
-#### Grouped - Arithmatic Mean (AM)  (Without Class Boundaries)
+#### Example [grouped data - AM - continuous]
+
+![alt text](assets/am_grouped_continuous.png)
+---
+
+
+#### [***Example] Grouped - Arithmatic Mean (AM)  (Without Class Boundaries)
 
 ![alt text](assets/am10.png)
 
-#### Grouped - Arithmatic Mean (AM) (With Class Boundaries)
+#### [***Example] Grouped - Arithmatic Mean (AM) (With Class Boundaries)
 ![alt text](assets/am11.png)
 ![alt text](assets/am12.png)
 ![alt text](assets/am13.png)
-    
+- **Lower Limit = 11 - 0.5 = 10.5**
+- **Upper Limit = 20 + 0.5 = 20.5**
 
+
+---
 #### 2. Geometric Mean
 - Used for: Growth rates (e.g., population growth, stock returns).
 ![alt text](assets/gm.png)
 
+##### [***Example - Ungrouped] Geometric Mean (GM) 
+![alt text](assets/ungrouped_gm1.png)
+![alt text](assets/ungrouped_gm_math.png)
+![alt text](assets/ungrouped_gm_math2.png)
+
+---
+
+
+##### [***Example - Grouped] Geometric Mean (GM) 
+---
+
+
 #### 3. Harmonic Mean
 - Used for: Averaging rates (e.g., speed, finance).
-![alt text](assets/hm.png)
+
+---
+#### Ungrouped Geometric Mean
+![alt text](assets/ug_gm.png)
+
+---
+#### [Example] Ungrouped Geometric Mean
+![alt text](assets/ug_gm_math.png)
+
+---
+#### Grouped Geometric Mean
+![alt text](assets/g_gm.png)
+---
+
+#### [Example] Grouped Geometric Mean
+![alt text](assets/g_gm_math.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -113,3 +189,8 @@ Can be:
 | Data is **bimodal or multimodal**                 | Mode         | Exam results where two groups perform very differently    |
 | Dealing with **ordinal data** (ranked categories) | Median       | Satisfaction survey ratings (e.g., 1-5 stars)             |
 
+
+
+# Documentation
+- https://www.brainkart.com/article/Harmonic-Mean-(H-M-)_35082/
+- 
