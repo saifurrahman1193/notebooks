@@ -137,9 +137,13 @@ A single summary score that best describes the central location of an entire dis
 ![alt text](assets/median.png)
 ![alt text](assets/median2.png)
 
-#### Only for Ungrouped dataset not for grouped dataset
+#### [***Formula - ungrouped] Only for Ungrouped dataset not for grouped dataset
 ![alt text](assets/median3.png)
 
+---
+#### [Example - Math - Ungrouped Even]
+![alt text](assets/median_ungrouped_even.png)
+---
 
 #### Grouped - Median  (Without Class Boundaries)
 ![alt text](assets/median4.png)
