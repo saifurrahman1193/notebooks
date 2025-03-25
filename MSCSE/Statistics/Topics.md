@@ -178,6 +178,23 @@ Can be:
 
 ![alt text](assets/unibimultimodal.png)
 
+---
+
+#### [Example - Math - Ungrouped - Mode]
+
+![alt text](assets/math_ungrouped_mode.png)
+---
+
+#### [Rules******] 
+![alt text](assets/continuous_mode.png)
+---
+#### [Math*****] 
+
+![alt text](assets/continuous_mode_math.png)
+![alt text](assets/continuous_mode_math_explain.png)
+![alt text](assets/continuous_mode_math_explain2.png)
+---
+
 ### Choosing the Best Measure of Central Tendency
 
 
