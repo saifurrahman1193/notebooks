@@ -225,6 +225,10 @@ Can be:
 | Dealing with **ordinal data** (ranked categories) | Median       | Satisfaction survey ratings (e.g., 1-5 stars)             |
 
 
+# Central Tendency Rules Grouped/Class Continuous values
+
+![alt text](assets/central_tendency_rules.png)
+
 
 # Documentation
 - https://www.brainkart.com/article/Harmonic-Mean-(H-M-)_35082/
