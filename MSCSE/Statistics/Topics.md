@@ -33,7 +33,6 @@ A single summary score that best describes the central location of an entire dis
 
 
 #### Example [ungrouped data - AM]
-![alt text](image.png)
 ![alt text](assets/am_ungrouped_discrete.png)
 
 ---
@@ -159,12 +158,21 @@ A single summary score that best describes the central location of an entire dis
 
 ![alt text](assets/median5.png)
 ![alt text](assets/median6.png)
+---
 
 
-#### Grouped Median Calculation (With Class Boundaries)
+####  [Example] Grouped Median Calculation (With Class Boundaries)
 ![alt text](assets/median7.png)
 ![alt text](assets/median9.png)
 ![alt text](assets/median8.png)
+---
+
+
+#### [Example] Grouped Median Calculation (With Class Boundaries)
+![alt text](assets/g_median_math.png)
+![alt text](assets/g_median_math2.png)
+---
+
 
 ### 3. Mode (Most Frequent Value)
 - Best for: Categorical data or distributions with multiple peaks.
@@ -174,7 +182,7 @@ Can be:
 - Bimodal (two modes),
 - Multimodal (more than two).
 
-**Example**: Favorite colors in a class, most common shoe size.
+[**Example**]: Favorite colors in a class, most common shoe size.
 
 ![alt text](assets/unibimultimodal.png)
 
