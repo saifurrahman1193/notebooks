@@ -161,7 +161,7 @@ A single summary score that best describes the central location of an entire dis
 ---
 
 
-#### Grouped Median Calculation (With Class Boundaries)
+####  [Example] Grouped Median Calculation (With Class Boundaries)
 ![alt text](assets/median7.png)
 ![alt text](assets/median9.png)
 ![alt text](assets/median8.png)
@@ -182,7 +182,7 @@ Can be:
 - Bimodal (two modes),
 - Multimodal (more than two).
 
-**Example**: Favorite colors in a class, most common shoe size.
+[**Example**]: Favorite colors in a class, most common shoe size.
 
 ![alt text](assets/unibimultimodal.png)
 
