@@ -83,10 +83,10 @@ A single summary score that best describes the central location of an entire dis
 
 ##### [***Example - Grouped] Geometric Mean (GM) 
 
-![alt text](grouped_gm_math_example_.png)
-![alt text](grouped_gm_math_example_1.png)
-![alt text](grouped_gm_math_example_2.png)
-![alt text](grouped_gm_math_example_3.png)
+![alt text](assets/grouped_gm_math_example_.png)
+![alt text](assets/grouped_gm_math_example_1.png)
+![alt text](assets/grouped_gm_math_example_2.png)
+![alt text](assets/grouped_gm_math_example_3.png)
 ---
 
 
