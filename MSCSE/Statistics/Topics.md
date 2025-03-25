@@ -201,6 +201,7 @@ Can be:
 ![alt text](assets/continuous_mode_math.png)
 ![alt text](assets/continuous_mode_math_explain.png)
 ![alt text](assets/continuous_mode_math_explain2.png)
+![alt text](assets/continuous_mode_math_explain3.png)
 ---
 
 ### Choosing the Best Measure of Central Tendency
