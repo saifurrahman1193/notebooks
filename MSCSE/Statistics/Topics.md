@@ -228,8 +228,19 @@ Can be:
 # Central Tendency Rules Grouped/Class Continuous values
 
 ![alt text](assets/central_tendency_rules.png)
-- N = Summation of **fi**
+- **Median**
+  - N = Summation of **fi**
+  - C.F = Cumalitive Frequency
+    - 2 = 2 [starting]
+    - 2 + 7 = 9
+    - 9 + 11 = 20
+  - N = summation of F (frequency given)
+  - 9 = C.F. = F. C. = F(m-1) [median class row's previous class row's Cumalitive frequency]
+  - 11 = F = F (m) [ median class row's frequency]
+  - 10 = C = i = h [class interval difference]
+  - L = 20 = lower limit of median class row's
 
+![alt text](assets/q1_q2_q3_decile_percentile.png)
 
 # Documentation
 - https://www.brainkart.com/article/Harmonic-Mean-(H-M-)_35082/
