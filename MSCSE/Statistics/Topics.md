@@ -228,6 +228,7 @@ Can be:
 # Central Tendency Rules Grouped/Class Continuous values
 
 ![alt text](assets/central_tendency_rules.png)
+- N = Summation of **fi**
 
 
 # Documentation
