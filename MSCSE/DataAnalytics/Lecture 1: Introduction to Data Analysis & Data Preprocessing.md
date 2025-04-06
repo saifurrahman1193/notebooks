@@ -16,7 +16,14 @@
 ## Outlier Detection
 ![alt text](assets/outlier_detection.png)
 ![alt text](assets/outlier_detection2.png)
+![alt text](assets/outlier_detection3.png)
+![alt text](assets/outlier_detection4.png)
+![alt text](assets/outlier_detection5.png)
+![alt text](assets/outlier_detection6.png)
 ![alt text](assets/z_score_formula.png)
+
+### how to find normally distributed
+![alt text](assets/how_to_find_normally_distributed.png)
 
 ```
 z = (X — μ) / σ​
