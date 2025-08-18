@@ -1,5 +1,7 @@
 # CI
 ![Alt text](assets/INTRO_CI_CD.png)
+**P**lease **C**ome **B**ack, **R**emember **D**reams **O**f **M**orning.
+
 
 # CI Flows
 
