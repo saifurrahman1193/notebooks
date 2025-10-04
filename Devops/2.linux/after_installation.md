@@ -155,16 +155,7 @@ sudo apt install git-all -y
 ```
 
 # Vscode
-Thanks for clarifying. Since you're on **Ubuntu 18.04**, the problem is that **VS Code now requires newer system libraries**, like `libc6 >= 2.28`, while Ubuntu 18.04 uses **libc6 version 2.27** — which is too old.
-
-2. Use this link format to download an older version (e.g., VS Code **1.70**, which works with Ubuntu 18.04):
-
-   ```bash
-   wget https://update.code.visualstudio.com/1.70.0/linux-deb-x64/stable -O code_1.70.0_amd64.deb
-   ```
-
-3. **Install the downloaded package**:
-
-   ```bash
-   sudo dpkg -i code_1.70.0_amd64.deb
-   ```
+## Download then run
+```
+sudo dpkg -i --force-all code_1.104.3-1759409451_amd64.deb
+```
