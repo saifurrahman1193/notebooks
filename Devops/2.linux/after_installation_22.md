@@ -11,6 +11,13 @@ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 # Some installtion
 ```
 sudo apt install vlc gimp gparted snap
+
+sudo snap install telegram-desktop
+sudo snap install chromium
+sudo snap install opera
+sudo snap install whatsapp-desktop-client
+sudo apt-get install git
+
 ```
 
 
@@ -104,58 +111,32 @@ swapon --show
 
 # Firefox
 
-Install Firefox .deb package for Debian-based distributions (recommended)
 
-To install the .deb package through the APT repository, do the following:
-
-Create a directory to store APT repository keys if it doesn't exist:
-```
-sudo install -d -m 0755 /etc/apt/keyrings
-```
-Import the Mozilla APT repository signing key:
-```
-wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc > /dev/null
-
-```
-If you do not have wget installed, you can install it with: 
-
-```sudo apt-get install wget```
-
-The fingerprint should be 35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3. You may check it with the following command:
-
-```
-gpg -n -q --import --import-options import-show /etc/apt/keyrings/packages.mozilla.org.asc | awk '/pub/{getline; gsub(/^ +| +$/,""); if($0 == "35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3") print "\nThe key fingerprint matches ("$0").\n"; else print "\nVerification failed: the fingerprint ("$0") does not match the expected one.\n"}'
-```
-
-Next, add the Mozilla APT repository to your sources.list:
-    For Debian Bookworm and Older: 
-```
-echo "deb [signed-by=/etc/apt/keyrings/packages.mozilla.org.asc] https://packages.mozilla.org/apt mozilla main" | sudo tee -a /etc/apt/sources.list.d/mozilla.list > /dev/null
-```
-
-Configure APT to prioritize packages from the Mozilla repository:
-```
-echo '
-Package: *
-Pin: origin packages.mozilla.org
-Pin-Priority: 1000
-' | sudo tee /etc/apt/preferences.d/mozilla
-
-Update your package list, and install firefox (or one of firefox-esr, -beta, -nightly, -devedition):
-```
-```
-sudo apt-get update && sudo apt-get install firefox
+```bash
+sudo snap remove firefox
+sudo apt remove firefox
+sudo apt purge firefox
+sudo apt autoremove
+rm -rf ~/.mozilla
+rm -rf ~/.cache/mozilla
+sudo snap install firefox
 ```
 
 
 
 # Git
 ```
-sudo apt install git-all -y
+sudo apt install git -y
 ```
 
 # Vscode
 ## Download then run
 ```
-sudo dpkg -i --force-all code_1.104.3-1759409451_amd64.deb
+sudo snap install code --classic
+```
+
+# sublime
+```
+sudo snap install sublime-text --classic
+
 ```
