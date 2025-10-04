@@ -171,3 +171,9 @@ sudo systemctl start docker
 
 
 ```
+
+
+# Workbench
+```
+sudo snap install mysql-workbench-community
+```
