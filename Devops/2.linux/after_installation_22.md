@@ -20,6 +20,7 @@ sudo apt-get install git
 
 ```
 
+---
 
 
 # Swap
@@ -108,6 +109,7 @@ swapon --show
 ```
 
 
+---
 
 # Firefox
 
@@ -122,25 +124,28 @@ rm -rf ~/.cache/mozilla
 sudo snap install firefox
 ```
 
+---
 
 
 # Git
 ```
 sudo apt install git -y
 ```
+---
 
 # Vscode
 ## Download then run
 ```
 sudo snap install code --classic
 ```
+---
 
 # sublime
 ```
 sudo snap install sublime-text --classic
 
 ```
-
+---
 
 # Docker
 ```
@@ -172,8 +177,130 @@ sudo systemctl start docker
 
 ```
 
+---
+
 
 # Workbench
 ```
 sudo snap install mysql-workbench-community
+```
+
+---
+
+
+# Wine
+
+### Step 1: Enable 32-bit Architecture (if not already done)
+
+Wine requires 32-bit libraries, even on a 64-bit system. So, first, enable the 32-bit architecture if you're on a 64-bit version of Ubuntu.
+
+```bash
+sudo dpkg --add-architecture i386
+```
+
+### Step 2: Add the WineHQ Repository
+
+WineHQ maintains the latest stable version of Wine. To install Wine from their repository, follow these steps:
+
+1. **Add the WineHQ repository**:
+
+   * First, install the necessary dependencies:
+
+     ```bash
+     sudo apt update
+     sudo apt install software-properties-common
+     ```
+
+   * Then, add the WineHQ signing key:
+
+     ```bash
+     sudo wget -qO - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
+     ```
+
+   * Add the Wine repository to your system:
+
+     ```bash
+     sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
+     ```
+
+
+2. **Update your package list**:
+
+   ```bash
+   sudo apt update
+   ```
+
+### Step 3: Install Wine
+
+Now, you can install Wine. There are a few different versions you can choose from, depending on your needs.
+
+#### 1. **Stable version** (recommended for most users):
+
+```bash
+sudo apt install --install-recommends winehq-stable
+```
+
+
+
+
+### Step 4: Verify Installation
+
+After installation, verify that Wine is correctly installed by running:
+
+```bash
+wine --version
+```
+
+This should show the installed version of Wine.
+
+### Step 5: Configure Wine (Optional)
+
+Once Wine is installed, you'll need to configure it before running Windows applications.
+
+1. To set up Wine for the first time:
+
+   ```bash
+   winecfg
+   ```
+
+2. This will create the Wine prefix (the "C:" drive) in your home directory (`~/.wine`) and open the Wine configuration window. You can adjust settings such as Windows version compatibility and graphics settings here.
+
+### Step 6: Running Windows Applications with Wine
+
+To run a Windows application with Wine, navigate to the folder containing the `.exe` file and run:
+
+```bash
+wine application.exe
+```
+
+---
+
+# remmina
+```
+sudo snap install remmina
+```
+
+# beekeeper studio
+```
+sudo snap install beekeeper-studio
+```
+
+# jupyter notebook
+```
+sudo snap install jupyterlab-desktop --classic
+```
+
+# whatsapp
+```
+sudo snap install whatsapp-linux-app
+```
+
+# gimp
+```
+sudo snap install gimp
+```
+
+# flameshot
+```
+sudo snap install flameshot
 ```
