@@ -304,3 +304,51 @@ sudo snap install gimp
 ```
 sudo snap install flameshot
 ```
+
+![alt text](assets/flameshot.png)
+
+# kazam
+```
+sudo apt install kazam
+```
+
+
+
+# dbeaver
+```
+sudo snap install dbeaver-ce
+```
+
+# filezilla
+```
+sudo apt-get install filezilla
+```
+
+# putty
+
+```
+sudo add-apt-repository universe
+sudo apt install -y putty
+putty --version
+```
+
+
+# anydesk
+```
+wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo apt-key add -
+echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list
+sudo apt update
+sudo apt install anydesk
+```
+
+
+# workspace
+```
+sudo apt install gnome-tweaks
+gnome-tweaks
+
+gnome-tweaks -> Extensions -> workspace grid
+	- dynamic work-spaces to static workspace
+	- number of workspace 6
+
+```
