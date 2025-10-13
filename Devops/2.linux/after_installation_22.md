@@ -352,3 +352,8 @@ gnome-tweaks -> Extensions -> workspace grid
 	- number of workspace 6
 
 ```
+
+# thunderbird
+```
+sudo snap install thunderbird
+```
