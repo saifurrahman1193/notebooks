@@ -357,3 +357,8 @@ gnome-tweaks -> Extensions -> workspace grid
 ```
 sudo snap install obs-studio
 ```
+
+# thunderbird
+```
+sudo snap install thunderbird
+```
