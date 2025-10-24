@@ -356,6 +356,18 @@ gnome-tweaks -> Extensions -> workspace grid
 # obsstudio
 ```
 sudo snap install obs-studio
+
+```
+
+## edit
+```
+/etc/gdm3/custom.conf
+
+#WaylandEnable=false
+
+to
+WaylandEnable=false
+
 ```
 
 # thunderbird
