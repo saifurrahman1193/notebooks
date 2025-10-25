@@ -302,10 +302,10 @@ sudo snap install gimp
 
 # flameshot
 ```
-sudo snap install flameshot
+sudo apt install flameshot
 ```
 
-![alt text](assets/flameshot.png)
+![alt text](assets/flameshot_u22.png)
 
 # kazam
 ```
@@ -355,7 +355,11 @@ gnome-tweaks -> Extensions -> workspace grid
 
 # obsstudio
 ```
+sudo apt install ffmpeg
+
 sudo snap install obs-studio
+
+
 
 ```
 
@@ -370,7 +374,18 @@ WaylandEnable=false
 
 ```
 
+
+
 # thunderbird
 ```
 sudo snap install thunderbird
 ```
+
+# appearance
+
+![alt text](assets/dock_position.png)
+![alt text](assets/active_screen.png)
+
+
+# Disk mount
+![alt text](assets/auto_mount.png)
