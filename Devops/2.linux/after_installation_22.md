@@ -386,7 +386,7 @@ sudo snap install thunderbird
 
 ![alt text](assets/dock_position.png)
 ![alt text](assets/active_screen.png)
-
+![alt text](assets/list_drivers.png)
 
 # Disk mount
 ![alt text](assets/auto_mount.png)
