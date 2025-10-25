@@ -17,7 +17,8 @@ sudo snap install chromium
 sudo snap install opera
 sudo snap install whatsapp-desktop-client
 sudo apt-get install git
-
+sudo apt install preload
+sudo apt install ubuntu-restricted-extras
 ```
 
 ---
@@ -389,3 +390,24 @@ sudo snap install thunderbird
 
 # Disk mount
 ![alt text](assets/auto_mount.png)
+
+# Dock
+```
+add to fabourite
+vlc
+vscode
+thunderbird
+terminal
+firefox
+
+```
+
+# bleachbit
+```
+sudo apt install bleachbit
+```
+
+![alt text](assets/bleachbit.png)
+
+# wifi dns
+![alt text](assets/dns.png)
