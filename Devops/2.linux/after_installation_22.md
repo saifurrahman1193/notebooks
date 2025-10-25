@@ -411,3 +411,23 @@ sudo apt install bleachbit
 
 # wifi dns
 ![alt text](assets/dns.png)
+
+
+#  Periodic Cleanup with Cron
+```
+sudo crontab -e
+@weekly apt autoremove -y && apt clean && journalctl --vacuum-time=7d
+
+@daily /usr/sbin/fstrim --all
+```
+
+# limit log size
+```
+sudo journalctl --vacuum-size=200M
+
+```
+![alt text](assets/journalctl.png)
+
+```
+sudo systemctl restart systemd-journald
+```
