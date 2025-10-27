@@ -2,6 +2,8 @@
 1. Quiz/Mock-Test
 2. Assignment Help Bid System
    1. Review and Rating System
+   2. paid and free question answering
+   3. 
 3. Textbook Question answering
    1. review and rating system
    2. answer history
@@ -19,14 +21,14 @@
    14. answer flagging system
    15. answer categorization system
    16. answer tagging system
-   18. answer exporting system PDF
-   22. answer analytics system
-   23. answer recommendation system
-   24. answer notification system
-   25. answer sharing system
-   26. answer collaboration system
-   27. answer plagiarism detection system
-   28. 
+   17. answer exporting system PDF
+   18. answer analytics system
+   19. answer recommendation system
+   20. answer notification system
+   21. answer sharing system
+   22. answer collaboration system
+   23. answer plagiarism detection system
+   24. 
 4. Subscription System
 5. Question Answering GIG
 6. Point System
