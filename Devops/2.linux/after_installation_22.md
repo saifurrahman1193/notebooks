@@ -17,7 +17,8 @@ sudo snap install chromium
 sudo snap install opera
 sudo snap install whatsapp-desktop-client
 sudo apt-get install git
-
+sudo apt install preload
+sudo apt install ubuntu-restricted-extras
 ```
 
 ---
@@ -302,10 +303,10 @@ sudo snap install gimp
 
 # flameshot
 ```
-sudo snap install flameshot
+sudo apt install flameshot
 ```
 
-![alt text](assets/flameshot.png)
+![alt text](assets/flameshot_u22.png)
 
 # kazam
 ```
@@ -353,7 +354,80 @@ gnome-tweaks -> Extensions -> workspace grid
 
 ```
 
+# obsstudio
+```
+sudo apt install ffmpeg
+
+sudo snap install obs-studio
+
+
+
+```
+
+## edit
+```
+/etc/gdm3/custom.conf
+
+#WaylandEnable=false
+
+to
+WaylandEnable=false
+
+```
+
+
+
 # thunderbird
 ```
 sudo snap install thunderbird
+```
+
+# appearance
+
+![alt text](assets/dock_position.png)
+![alt text](assets/active_screen.png)
+![alt text](assets/list_drivers.png)
+
+# Disk mount
+![alt text](assets/auto_mount.png)
+
+# Dock
+```
+add to fabourite
+vlc
+vscode
+thunderbird
+terminal
+firefox
+
+```
+
+# bleachbit
+```
+sudo apt install bleachbit
+```
+
+![alt text](assets/bleachbit.png)
+
+# wifi dns
+![alt text](assets/dns.png)
+
+
+#  Periodic Cleanup with Cron
+```
+sudo crontab -e
+@weekly apt autoremove -y && apt clean && journalctl --vacuum-time=7d
+
+@daily /usr/sbin/fstrim --all
+```
+
+# limit log size
+```
+sudo journalctl --vacuum-size=200M
+
+```
+![alt text](assets/journalctl.png)
+
+```
+sudo systemctl restart systemd-journald
 ```
