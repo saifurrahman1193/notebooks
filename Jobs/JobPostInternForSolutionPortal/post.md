@@ -1,13 +1,12 @@
-**Looking for a Software Engineer (3-Month Project, Possibly Extendable, Remote)**
+**Looking for a Fresher (3-Month Project, Possibly Extendable, Remote)**
 
-I am looking for a talented software engineer to help me build a project.
+I am looking for a **fresher** to help me build a project.
 
 **Project Details:**
 
 * Duration: 3 months (may be extendable)
 * Work: Remote
 * Time: Flexible
-* Budget: Monthly **BDT 5,000**
 
 **Tech Stack:**
 
