@@ -1,27 +1,35 @@
-**Looking for a Fresher (3-Month Project, Possibly Extendable, Remote)**
+### Looking for a Fresher / CSE Student (3-Month Personal Project | Remote)
 
-I am looking for a **fresher** to help me build a project.
+I’m looking for a **fresher** or a **CSE student (running)** who wants to gain **real-world project experience**.
+ **Note:** This is **not a job** — it’s a **personal project**.
 
-**Project Details:**
+###  Project Details
 
-* Duration: 3 months (may be extendable)
-* Work: Remote
-* Time: Flexible
+* **Duration:** 3 months (may be extendable)
+* **Work Type:** Remote
+* **Time:** Flexible
 
-**Tech Stack:**
+### Tech Stack
 
-* Backend: Laravel API
-* Frontend: React
-* Database: MySQL
-* Development: Docker setup
+* **Backend:** Laravel (API-based)
+* **Frontend:** React
+* **Database:** MySQL
+* **Development Environment:** Docker setup
 
-**Requirements:**
+###  Requirements
 
-* Strong knowledge of PHP and MySQL
-* Basic understanding of Laravel
-* React and frontend experience
-* Experience working with APIs and JSON
+* Basic knowledge of **Laravel Framework**
+* Good understanding of **Any programming Language/PHP** and **MySQL**
+* Some experience with **React (frontend)**
+* Familiar with **APIs** and **JSON**
 
-**Contact:**
+###  Additional Info
+
+I already have the **full setup** ready — you’ll work following my **instructions and guidance**.
+If you have a solid understanding of **database concepts**, that will help a lot.
+
+
+###  Contact
+
 Send your CV to: **[saifur.rahman1193@gmail.com](mailto:saifur.rahman1193@gmail.com)**
-
+or **Inbox me on Messenger**.

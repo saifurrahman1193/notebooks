@@ -1,21 +1,21 @@
 ## Services
+
 1. Quiz/Mock-Test
 2. Assignment Help Bid System
    1. Review and Rating System
    2. paid and free question answering
-   4. bid filtering
-   5. bid sorting
-   6. bid commenting
-   10. bid categorization
-   11. bid tagging
-   13. bid analytics
-   14. bid recommendation
-   15. bid notification
-   17. bid collaboration
-   18. bid apply
-   19. bid tracking
-   20. bid deadline reminder
-   21. 
+   3. bid filtering
+   4. bid sorting
+   5. bid commenting
+   6. bid categorization
+   7. bid tagging
+   8. bid analytics
+   9. bid recommendation
+   10. bid notification
+   11. bid collaboration
+   12. bid apply
+   13. bid tracking
+   14. bid deadline reminder
 3. Textbook Question answering
    1. review and rating system
    2. answer history
@@ -23,28 +23,27 @@
    4. answer editing system
    5. answer versioning system
    6. answer bookmarking system
-   8. answer filtering system
-   9. answer sorting system
-   10. answer sharing system
-   11. answer commenting system
-   12. answer liking system
-   14. answer flagging system
-   15. answer categorization system
-   16. answer tagging system
-   17. answer exporting system PDF
-   18. answer analytics system
-   19. answer recommendation system
-   20. answer notification system
-   21. answer sharing system
-   22. answer collaboration system
-   23. answer plagiarism detection system
-   24. 
+   7. answer filtering system
+   8. answer sorting system
+   9. answer sharing system
+   10. answer commenting system
+   11. answer liking system
+   12. answer flagging system
+   13. answer categorization system
+   14. answer tagging system
+   15. answer exporting system PDF
+   16. answer analytics system
+   17. answer recommendation system
+   18. answer notification system
+   19. answer sharing system
+   20. answer collaboration system
+   21. answer plagiarism detection system
 4. Subscription System
 5. Question Answering GIG
 6. Point System
 7. Wallet System
-   1. cashout 
-   2. cash in 
+   1. cashout
+   2. cash in
    3. transaction history
    4. payment gateway integration
    5. payment
@@ -98,15 +97,15 @@
 18. Scholarship Preparation
 19. University Admission Preparation
 20. Career Guidance
-    1.  book appointment
-    2.  live chat
-    3.  video call
-    4.  career assessment test
-    5.  resume review
-    6.  interview preparation
-    7.  job search assistance
-    8.  internship search assistance
-    9.  mentorship program
+    1. book appointment
+    2. live chat
+    3. video call
+    4. career assessment test
+    5. resume review
+    6. interview preparation
+    7. job search assistance
+    8. internship search assistance
+    9. mentorship program
     10. career resources
     11. career workshops
     12. 
